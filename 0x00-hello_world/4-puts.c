@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-
 /**
- * declaring the entry point.. int .main()
- * write the code block
- * end the program ... return 0
+ * main - Entry point
+ * puts - displays "Programming is like building a multilingual puzzle"
+ *
+ * Return: 1 if the number is true. 0 otherwise
  */
-int main(void) /* main - Entry point*/
+int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
-	return (0); /* ends the program*/
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return (0);
 }
