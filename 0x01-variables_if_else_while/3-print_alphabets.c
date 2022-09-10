@@ -1,29 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * lc - lowercase letter
- * uc - uppercase letter
- *while - condition for the output
+ * main - Entry point
+ * chrl: contains alphabets in lowercase
+ * chru: contains alphabest in uppercase
  *
- * Return: 0 After success
+ * prints out alphabets in lowercases and uppercasess
+ * Return: 0 after success
  */
 
 int main(void)
 {
-	char lc = 'a';
-	char uc = 'A';
+	char chrl = 'a';
+	char chru = 'A';
 
-	while (lc <= 'a')
+	while (chrl <= 'z')
 	{
-		putchar(lc);
-		lc++;
+		putchar(chrl);
+		chrl++;
 	}
-	while (uc <= 'Z')
+	while (chru <= 'Z')
 	{
-		putchar(uc);
-		uc++;
+		putchar(chru);
+		chru++;
 	}
 	putchar('\n');
+
 	return (0);
 }
