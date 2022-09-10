@@ -15,7 +15,7 @@ int main(void)
 	while (n < 10)
 	{
 		/* prints the numbers */
-		int putchar(int n)
+		int putchar(int n);
 		n++;
 	}
 	putchar('\n');
