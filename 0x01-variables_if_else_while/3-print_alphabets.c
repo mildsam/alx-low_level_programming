@@ -10,11 +10,9 @@
  */
 int main(void)
 {
-	char lc;
-	char uc;
+	char lc = "a";
+	char uc = "A";
 
-	lc = "a";
-	uc = "A"
 	while (lc <= "z")
 	{
 		putchar(lc);
