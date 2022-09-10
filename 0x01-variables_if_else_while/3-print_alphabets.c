@@ -8,6 +8,7 @@
  *
  * Return: 0 After success
  */
+
 int main(void)
 {
 	char lc = 'a';
@@ -23,6 +24,6 @@ int main(void)
 		putchar(uc);
 		uc++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
