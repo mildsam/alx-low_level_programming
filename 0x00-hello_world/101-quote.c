@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 *
-* Return: 1 
+* Return: 1
 *
 */
 
