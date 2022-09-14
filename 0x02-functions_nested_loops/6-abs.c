@@ -7,7 +7,7 @@
  *
  *Return: 0 (Success)
  */
-int _abs(int)
+int _abs(int b)
 {
 	int b = 0;
 
