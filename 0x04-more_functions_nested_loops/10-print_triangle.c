@@ -1,27 +1,30 @@
 #include "main.h"
 
 /**
- * print_triangle - To print out a square of ##
- * @size: an integer parameter for the triangle
- * Return: 0 Success
+ * print_triangle - create triangle
+ * @size: params
+ * Return: 0
  */
 
 void print_triangle(int size)
 {
-	int tri_rows;
-	int tri_cols;
+	int i = 0, j, n = size - 1;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-
-	for (sq_rows = 1; sq_rows <= size; sq_rows++)
-	{
-		for (sq_cols = 1; sq_cols <= size; sq_cols++)
+		for (; i < size; i++)
 		{
-			_putchar('#');
+			for (j = 0; j < size; j++)
+			{
+				if (j < n)
+					_putchar(' ');
+				else
+					_putchar('#');
+			}
+			n--;
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+	else
+		_putchar('\n');
 }
