@@ -7,6 +7,7 @@
  *
  * Return: Always 0.
  */
+int _get_square(int n, int square);
 
 int _sqrt_recursion(int n)
 {
